@@ -75,8 +75,6 @@ The APIs should support following operations:
     }
     ```
 
-
-
 3. Get books based on category :
    http://localhost:9008/getCategory/Self Help
  
@@ -140,20 +138,8 @@ The APIs should support following operations:
         "message": "The business school has been ordered"
     }
     ``
-    7. List all tracking information of any book :
-       http://localhost:9008/trackStatus/6293cf77f8d4d9233a57d942
 
-
-    Response JSON
-
-    ```json
-    {
-        "status": "success",
-        "message": "The business school has been returned"
-    }
-    ``
-
-6. To return book for reading :
+6. To return book after reading :
    http://localhost:9008/returnBook/6293cf77f8d4d9233a57d942
  
 
@@ -174,5 +160,16 @@ The APIs should support following operations:
         ]
     }
     ``
+    
+ 7. List all tracking information of any book :
+    http://localhost:9008/trackStatus/6293cf77f8d4d9233a57d942
 
 
+    Response JSON
+
+    ```json
+    {
+        "status": "success",
+        "message": "The business school has been returned"
+    }
+    ``

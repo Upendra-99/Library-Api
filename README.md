@@ -78,7 +78,6 @@ The APIs should support following operations:
 3. Get books based on category :
    http://localhost:9008/getCategory/Self Help
  
-
     Response JSON
 
     ```json
@@ -108,7 +107,6 @@ The APIs should support following operations:
 4. Get books based on Author name :
    http://localhost:9008/getAuthor/Robert T. Kiyosaki
  
-
     Response JSON
 
     ```json
@@ -129,7 +127,6 @@ The APIs should support following operations:
 5. To order book for reading :
    http://localhost:9008/orderBook/6293cf77f8d4d9233a57d942
  
-
     Response JSON
 
     ```json
@@ -142,7 +139,6 @@ The APIs should support following operations:
 6. To return book after reading :
    http://localhost:9008/returnBook/6293cf77f8d4d9233a57d942
  
-
     Response JSON
 
     ```json

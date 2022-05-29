@@ -1,7 +1,7 @@
 const http = require("http");
 const App = require("./Routes/libraryRoute");
 const mongodbConnection = require("./DBConnection/mongodb");
-require("dotenv").config();
+require("dotenv").config({ path: "./env/.env" });
 
 const port = process.env.PORT;
 
